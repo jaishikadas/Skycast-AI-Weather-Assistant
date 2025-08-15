@@ -22,12 +22,7 @@ It combines the **OpenWeather API** for weather data with the **Google Gemini AP
 
 ## 🚀 Setup Instructions
 
-### 1️⃣ Clone this repository
-```bash
-git clone https://github.com/your-username/skycast-ai-weather-assistant.git
-cd skycast-ai-weather-assistant
-
-### 2️⃣ Create config.js
+### 1. Create config.js
 Create a file named config.js in the project root:
 // config.js
 const OPENWEATHER_API_KEY = "your-openweather-api-key";
@@ -37,7 +32,7 @@ const GEMINI_API_KEY = "your-gemini-api-key";
 Do NOT commit config.js to GitHub.
 Add it to .gitignore so it remains private.
 
-### 3️⃣ Run the App
+### 2. Run the App
 
 Simply open index.html in your browser.
 📂 Project Structure
@@ -56,3 +51,9 @@ Simply open index.html in your browser.
 
 API keys are stored locally in config.js and never committed to GitHub.
 Each user must supply their own API keys.
+
+### 1️⃣ Clone this repository
+```bash
+git clone https://github.com/your-username/skycast-ai-weather-assistant.git
+cd skycast-ai-weather-assistant
+
